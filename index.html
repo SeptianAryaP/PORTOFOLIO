@@ -109,7 +109,7 @@
                             <img src="./img/projects/progate.jpg" class="card-img-top" alt="progate">
                         </a>
                         <div class="card-body">
-                            <p class="card-text">Progate adalah sebuah website pembeljaran online</p>
+                            <p class="card-text">Progate adalah sebuah website pembelajaran online</p>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             url>
                         </a>
                         <div class="card-body">
-                            <p class="card-text">Aplikasi absensi sederhana yang dibuat dengan JS</p>
+                            <p class="card-text">Aplikasi absensi sederhana yang dibuat dengan JavaScripts</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <img src="./img/projects/belanja.png" class="card-img-top" alt="bioskop">
                         </a>
                         <div class="card-body">
-                            <p class="card-text">Aplikasi catatan belanja sederhana</p>
+                            <p class="card-text">Aplikasi catatan belanja sederhana dibuat dengan JavaScripts </p>
                         </div>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                     method: 'POST',
                     body: new FormData(form)
                 })
-                .then(response => console.log('Success!', response), window.alert("pesan berhasil terkirim"))
+                .then(response => console.log('Success!', response), window.alert("pesan berhasil terkirim"), document.forms["Portfolio contact form"].reset())
                 .catch(error => console.error('Error!', error.message))
         })
 
